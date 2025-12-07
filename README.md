@@ -37,13 +37,3 @@ python src/eda.py data/sample_claims.csv --out results/eda_summary.csv
 python src/hypothesis_tests.py data/sample_claims.csv --out results/hypothesis_results.json
 ```
 
-Notes
-
-- Replace `data/sample_claims.csv` with your real dataset when ready. The scripts expect CSV with at least the following columns: `policy_id`, `zipcode`, `province`, `gender`, `total_claims`, `premium`.
-- The hypothesis testing script saves human-readable output and returns an exit code 0 on success.
-
-Next steps
-
-- After you create the GitHub repo, push this folder. I can help create a clean commit history and CI workflow if desired.
-
-License: internal ACIS work (no external license added).
